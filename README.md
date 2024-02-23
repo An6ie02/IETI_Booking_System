@@ -28,6 +28,17 @@ Se realizó la implementación de los métodos de la API REST para la aplicació
 ⛔ Prueba de que se elimino el usuario:
 ![getfinish](./img/image-8.png)
 
+## Tercera Parte: Implementando la capa de persistencia con Spring Data MongoDB 📚
+
+Se ha hecho la configuración requerida para poder conectar el proyecto a MongoDB: Crear cluster, usuario con acceso a la base de datos, configurar el archivo application.properties con las credenciales de acceso a la base de datos.
+* Creación de el usuario: 👤\
+![CreateUser](/img/image-9.png)\
+Luego de implementar el documento users y repositorios para almacenar los datos en MongoDB se obtiene el siguiente resultado:
+* Se crearon 2 usuarios en la base de datos: 👥✅\
+![UsersRegisters](./img/image-10.png)
+* Se consultaron los usuarios de la base de datos: ✅\
+![DBUsers](./img/image11.png)
+
 ## Autor 🔆
 
-* **Angie Natalia Mojica** [Perfin GitHub](https://www.linkedin.com/in/angienataliamojica/)
+* **Angie Natalia Mojica** [Perfil GitHub](https://www.linkedin.com/in/angienataliamojica/)
