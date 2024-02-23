@@ -6,12 +6,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
 
 import escuelaing.edu.ieti.bookingsystem.exception.UserNotFoundException;
 import escuelaing.edu.ieti.bookingsystem.repository.user.User;
 
-@Service
 public class UsersServiceMap implements UsersService {
 
     Map<String, User> users = new HashMap<>();
